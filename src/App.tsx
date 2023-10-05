@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="container">
+      <main>
+        <section id="acessar_conta">
+          <h1>Acessar conta</h1>
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Senha"
+          />
+          <div id="adicionais_login">
+            <div>
+              <input type="checkbox" name="remember" id="remember" />
+              <label htmlFor="remember">Lembrar-me</label>
+            </div>
+            <div>
+              <a href="#">Esqueceu a senha?</a>
+            </div>
+          </div>
+          <button type="submit">Acessar</button>
+        </section>
+        <section id="divisor">
+          <div />
+          <span>Ou</span>
+          <div />
+        </section>
+        <section id="criar_conta">
+          <input type="text" name="name" id="name" placeholder="Nome" />
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Senha"
+          />
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Confirmar Senha"
+          />
+          <button type="submit">Cadastrar</button>
+        </section>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;

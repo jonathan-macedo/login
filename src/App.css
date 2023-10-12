@@ -12,7 +12,7 @@ main {
 }
 
 main section h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-bottom: 72px;
   text-align: center;
 }
@@ -33,6 +33,7 @@ main section button {
   border-radius: 25px;
   color: #1e1e1e;
   font-size: 2rem;
+  font-weight: bold;
   width: 100%;
   background-color: #8fd9a1;
   cursor: pointer;
@@ -63,4 +64,16 @@ main section#acessar_conta div#adicionais_login div:nth-child(2) a {
 
 main section#acessar_conta button {
   margin-top: 36px;
+}
+
+main section#criar_conta h1 {
+  margin-bottom: 38px;
+}
+
+main section#criar_conta input {
+  margin-bottom: .5rem;
+}
+
+main section#criar_conta button {
+  margin-top: 3rem;
 }

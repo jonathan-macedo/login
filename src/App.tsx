@@ -30,6 +30,7 @@ function App() {
           <div />
         </section>
         <section id="criar_conta">
+          <h1>Cadastrar conta</h1>
           <input type="text" name="name" id="name" placeholder="Nome" />
           <input type="email" name="email" id="email" placeholder="E-mail" />
           <input

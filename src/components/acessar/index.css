@@ -1,0 +1,22 @@
+section input{
+  margin-bottom: 16px;
+}
+
+section div#adicionais_login{
+  display: flex;
+  justify-content: space-between;
+}
+
+section div#adicionais_login div:nth-child(1){
+  display: flex;
+}
+
+section div#adicionais_login div:nth-child(1) input{
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+section div#adicionais_login div:nth-child(2) a{
+  text-decoration: none;
+}

@@ -66,6 +66,25 @@ main section#acessar_conta button {
   margin-top: 36px;
 }
 
+main section#divisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section#divisor div {
+  border-right: #2975D9 3px solid;
+  border-radius: 3px;
+  height: 190px;
+}
+
+main section#divisor span {
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
 main section#criar_conta h1 {
   margin-bottom: 38px;
 }

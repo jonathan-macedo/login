@@ -28,44 +28,6 @@ main section input {
   background-color: #e0e0de;
 }
 
-main section button {
-  border: none;
-  border-radius: 25px;
-  color: #1e1e1e;
-  font-size: 2rem;
-  font-weight: bold;
-  width: 100%;
-  background-color: #8fd9a1;
-  cursor: pointer;
-}
-
-main section#acessar_conta input {
-  margin-bottom: 16px;
-}
-
-main section#acessar_conta div#adicionais_login {
-  display: flex;
-  justify-content: space-between;
-}
-
-main section#acessar_conta div#adicionais_login div:nth-child(1) {
-  display: flex;
-}
-
-main section#acessar_conta div#adicionais_login div:nth-child(1) input {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-main section#acessar_conta div#adicionais_login div:nth-child(2) a {
-  text-decoration: none;
-}
-
-main section#acessar_conta button {
-  margin-top: 36px;
-}
-
 main section#divisor {
   display: flex;
   flex-direction: column;
@@ -83,16 +45,4 @@ main section#divisor span {
   font-size: 3rem;
   font-weight: bold;
   font-style: italic;
-}
-
-main section#criar_conta h1 {
-  margin-bottom: 38px;
-}
-
-main section#criar_conta input {
-  margin-bottom: .5rem;
-}
-
-main section#criar_conta button {
-  margin-top: 3rem;
 }
